@@ -1,0 +1,125 @@
+
+div{
+    display: flex;
+    background-color: blue;
+    border-color: black;
+    width: 100%;
+    height: 30px;
+}
+.row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30px;
+    background-color: red;
+    width: 100%;
+}
+
+.row_blue1{
+    background-color: blue;
+    width: 100%;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    height: 30px;
+    background-color: blue;
+    width: 100%;
+}
+.row_blue2{
+    background-color: green;
+    width: 100%;
+}
+
+.row3{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    height: 30px;
+    background-color: blue;
+    width: 100%;
+}
+.row4{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    height: 30px;
+    background-color: blue;
+    width: 100%;
+}
+.row_blue4{
+    background-color: red;
+    width: 100%;
+}
+.row5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30px;
+    background-color: green;
+    width: 100%;
+}
+.green5{
+    height: 20px;
+    width: 5%;
+    align-self: center;
+}
+.row6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 30px;
+    background-color: red;
+    width: 100%;
+}
+.blue6{
+    height: 30px;
+    width: 10%;
+    align-self: center;
+}
+.row7{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    height: 30px;
+    background-color: blue;
+    width: 100%;
+}
+.green7{
+    height: 10px;
+    width: 100%;
+    align-self: center;
+}
+.row8{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 30px;
+    background-color: green;
+    width: 100%;
+}
+.green8{
+    height: 30px;
+    width: 30%;
+    align-self: center;
+}
+.row9{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 30px;
+    background-color: green;
+    width: 100%;
+}
+.green9{
+    height: 30px;
+    width: 90%;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px){
+    .row8{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 30px;
+        background-color: green;
+        width: 100%;
+    }
+    .green8{
+        height: 30px;
+        background-color: peru;
+        width: 90%;
+        justify-content: space-between;
+    } 
+}
